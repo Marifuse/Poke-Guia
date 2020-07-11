@@ -73,7 +73,8 @@ export default {
 
 <style>
   body {
-    background-color: darkred;
+    background-color: #000;
+    color: #FFF;
     margin: 0; 
   }
   #app {
@@ -150,7 +151,7 @@ export default {
   }
   /* Cierre */
   footer {
-    background-color: #000000;
+    background-color: darkred;
   }
   .poke-footer {
     width: 20%;

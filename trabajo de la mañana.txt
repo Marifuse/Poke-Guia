@@ -1,0 +1,49 @@
+<template>
+    <div>
+        <header>
+            <h1>Random Gif Cat</h1>
+        </header>
+        <!-- <h2> {{msg}} </h2>
+        <li v-for="(item, index) in items" :key='index'
+        class="default" :class="{strikeout: item.bought}" style="color: green; font-size: 2em;">{{ item.description }}</li> -->
+    </div>
+</template>
+
+<script>
+export default {
+  data() {
+      return {
+          items: [
+              {
+                  description: 'torta',
+                  bought: false
+              },
+              {
+                  description: 'papas fritas',
+                  bought: false
+              },
+              {
+                  description: 'bebidas',
+                  bought: true
+              }
+          ]
+      }
+  },
+  props: {
+    msg: String 
+  }  
+}
+</script>
+
+<style scoped>
+    .default {
+        color: royalblue;
+    }
+    .strikeout {
+        text-decoration: line-through;
+        color: red;
+    }
+</style>
+
+
+this.cat.src = response
